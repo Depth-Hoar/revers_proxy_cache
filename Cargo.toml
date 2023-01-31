@@ -1,0 +1,12 @@
+[package]
+name = "reverseproxycache"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+awc = { version = "3.0.0", features = ["openssl"] }
+openssl = "0.10.40"
+hyper = { version = "0.14", features = ["full"] }
